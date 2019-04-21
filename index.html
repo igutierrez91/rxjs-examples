@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RxJS Demo</title>
+    <style>
+        body { font-family: 'Arial'; background: lightgray }
+        ul { list-style-type: none; padding: 20px; }
+        li { padding: 15px; background: lightcoral; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>RxJS Demo</h1>
+    <button id="start">Ejemplo map</button>
+    <button id="soloImpares">Ejemplo map/ filter </button>
+    <button id="sumatorioImpares">Ejemplo map / filer / reduce</button>
+    <button id="mergeExample">Ejemplo merge</button>
+    <button id="concatExample">Concat example</button>
+    <button id="forkJoinExample">ForkJoin example</button>
+    <button id="concatMapExample">ConcatMap example</button>
+    <button id="mergeMapExample">mergeMapExample</button>
+    
+
+    
+
+    <div>
+        <ul id="list"></ul>
+    </div>
+
+    <div>
+        <span id="error"></span>
+    </div>
+
+    <div>
+        <input id="buscador" type="text">
+    </div>
+
+    <div>
+        <ul id="listMovies"></ul>
+    </div>
+
+    <script src="/bundle.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
